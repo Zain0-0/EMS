@@ -1,4 +1,4 @@
-const dataBase = JSON.parse(localStorage.getItem(JSON.stringify("database"))) || [];
+const dataBase = JSON.parse(localStorage.getItem("database")) || [];
 renderData()
 
 function addBtn() {
