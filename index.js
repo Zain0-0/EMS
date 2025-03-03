@@ -1,4 +1,4 @@
-const dataBase = localStorage.getItem(JSON.stringify("database")) || [];
+const dataBase = JSON.parse(localStorage.getItem(JSON.stringify("database"))) || [];
 
 function addBtn() {
     document.getElementById("add_btn").style.display = "none"
